@@ -180,7 +180,7 @@ nav {
     background: rgb(255, 233, 233);
     color: white;
     margin-top: 17rem;
-    margin-bottom: 8em;
+    margin-bottom: 10em;
     z-index: 6;
 }
 .intro-text {
@@ -225,7 +225,6 @@ nav {
     flex-wrap: wrap;
     gap: 100px 50px;
     padding: 100px 50px;
-    margin: 8em 0em;
 }
 
 .container  .card {
