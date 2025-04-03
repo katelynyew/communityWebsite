@@ -224,13 +224,12 @@ nav {
     padding: 0px 2px;
     gap: 10px;
     flex-wrap: wrap;
-    margin: 0rem 4rem;
 
     
 }
 
 .row    .tags{
-    width: calc(30% - 10px); /* Makes each p take up 50% of the width minus the gap */
+    width: calc(40% - 10px); /* Makes each p take up 50% of the width minus the gap */
     padding: 10px; /* Padding inside each p tag */
     text-align: center;
     font-size: 3rem;
