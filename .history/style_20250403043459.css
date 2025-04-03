@@ -217,19 +217,14 @@ nav {
 .row {
     position: relative;
     display: flex;
-    width: 100%;
+    width: 200%;
     top: 60%;
     justify-content: center;
     align-items: center;
-    
 }
-
-.row    .tags{
-    width: 100%;
-    text-align: center;
+.row    p {
     font-size: 3rem;
-    color: rgb(16, 16, 135);
-    font-weight: bold;
+    color: rgb(14, 14, 144);
 
 }
 .container {

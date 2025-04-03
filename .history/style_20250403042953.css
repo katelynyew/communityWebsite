@@ -214,24 +214,7 @@ nav {
     font-style: italic;
     font-weight: heavier;
 }
-.row {
-    position: relative;
-    display: flex;
-    width: 100%;
-    top: 60%;
-    justify-content: center;
-    align-items: center;
-    
-}
 
-.row    .tags{
-    width: 100%;
-    text-align: center;
-    font-size: 3rem;
-    color: rgb(16, 16, 135);
-    font-weight: bold;
-
-}
 .container {
     top:60%;
     background-color: rgb(226, 242, 253);
@@ -337,7 +320,9 @@ nav {
     border-radius: 8px;
 }
 
-
+.row {
+    width: 100%;
+}
 
 .home {
     position: relative;
