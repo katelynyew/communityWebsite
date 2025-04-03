@@ -175,7 +175,7 @@ nav {
 
 .content-holder {
     position: relative;
-    top: 60%;
+    top: 170vh;
     width: 100%;
     background: rgb(255, 233, 233);
     color: white;
@@ -309,11 +309,10 @@ nav {
 }
 .container  .card   .card-content a {
     position: relative;
-    top: 0px;
-    transform: translateY(-95%);
+    top: 15px;
     display: inline-block;
     padding: 12px 25px;
-    background: rgb(0, 0, 0);
+    background: rgb(100, 64, 64);
     color: white;
     font-weight: 500;
     text-decoration: none;
@@ -334,20 +333,18 @@ nav {
     display: inline-block;
     padding: 10px;
     border-radius: 100px;
-    
-   background-color: rgba(255, 84, 65, 0.292);
+   background-color: rgb(137, 200, 200);
 }
 
 .home:hover {
     border-color: #009688; /* Make border visible on hover */
-    background-color: rgb(137, 200, 200,0.292); /* Light background effect */
+    background-color: rgba(255, 84, 65, 0.292); /* Light background effect */
     width: 65%;
-    transition: 0.5s;
 }
   
 .home a {
     text-decoration: none; /* Remove underline */
-    color: rgb(102, 125, 208); /* Change text color */
+    color: rgb(216, 140, 140); /* Change text color */
     font-weight: bold;
     display: block;
   }

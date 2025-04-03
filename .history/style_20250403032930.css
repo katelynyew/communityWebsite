@@ -15,14 +15,14 @@ html {
 html, body {
     font-family: "Noto sans", sans-serif;
     height: 100%;
-    background-color: rgb(255, 236, 236);
+    background-color: rgb(218, 195, 191);
     
 }
 
 
 .landing{
     min-height: 100vh;
-    background-color: rgb(255, 236, 236);
+    background-color: rgb(218, 195, 191);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -175,7 +175,7 @@ nav {
 
 .content-holder {
     position: relative;
-    top: 60%;
+    top: 170vh;
     width: 100%;
     background: rgb(255, 233, 233);
     color: white;
@@ -309,11 +309,10 @@ nav {
 }
 .container  .card   .card-content a {
     position: relative;
-    top: 0px;
-    transform: translateY(-95%);
+    top: 15px;
     display: inline-block;
     padding: 12px 25px;
-    background: rgb(0, 0, 0);
+    background: rgb(100, 64, 64);
     color: white;
     font-weight: 500;
     text-decoration: none;
@@ -324,30 +323,27 @@ nav {
     position: relative;
  
     top: 1rem;
-    width: 65%;
+    width: 100%;
     text-align: center;
     font-size: 10rem;
-    color: rgb(12, 45, 124);
+    color: black;
     font-size: 5rem;
     font-weight: lighter;
     list-style: none;
     display: inline-block;
     padding: 10px;
-    border-radius: 100px;
-    
-   background-color: rgba(255, 84, 65, 0.292);
+    border-radius: 5px;
+   
 }
 
 .home:hover {
     border-color: #009688; /* Make border visible on hover */
-    background-color: rgb(137, 200, 200,0.292); /* Light background effect */
-    width: 65%;
-    transition: 0.5s;
+    background-color: rgba(255, 113, 31, 0.292); /* Light background effect */
 }
   
 .home a {
     text-decoration: none; /* Remove underline */
-    color: rgb(102, 125, 208); /* Change text color */
+    color: black; /* Change text color */
     font-weight: bold;
     display: block;
   }
