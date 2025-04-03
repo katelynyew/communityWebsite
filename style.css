@@ -15,14 +15,14 @@ html {
 html, body {
     font-family: "Noto sans", sans-serif;
     height: 100%;
-    background-color: rgb(255, 236, 236);
+    background-color: rgb(226, 242, 253);
     
 }
 
 
 .landing{
     min-height: 100vh;
-    background-color: rgb(255, 236, 236);
+    background-color: rgb(226, 242, 253);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -152,7 +152,7 @@ nav {
 }
 
 .img-holder {
-    background-color: rgb(255, 235, 232);
+    background-color: rgb(226, 242, 253);
     margin: 3em 0em;
     position: relative;
     top: 0%;
@@ -177,14 +177,14 @@ nav {
     position: relative;
     top: 60%;
     width: 100%;
-    background: rgb(255, 233, 233);
+    background: rgb(226, 242, 253);
     color: white;
     margin-top: 17rem;
     margin-bottom: 8em;
     z-index: 6;
 }
 .intro-text {
-    background: rgb(255, 236, 236);
+    background: rgb(226, 242, 253);
     position: relative;
     top: 0%;
     width: 100%;
@@ -193,7 +193,7 @@ nav {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    color: rgb(94, 29, 29);
+    color: rgb(29, 54, 94);
     font-family: "Noto Sans", sans-serif;
     padding: 10em 10em;
    
@@ -217,7 +217,7 @@ nav {
 
 .container {
     top:60%;
-    background-color: rgb(255, 236, 236);
+    background-color: rgb(226, 242, 253);
     position: relative;
     display: flex;
     justify-content: center;
@@ -327,15 +327,14 @@ nav {
     width: 65%;
     text-align: center;
     font-size: 10rem;
-    color: rgb(12, 45, 124);
+    color: rgb(29, 54, 94);
     font-size: 5rem;
     font-weight: lighter;
-    list-style: none;
     display: inline-block;
     padding: 10px;
     border-radius: 100px;
     
-   background-color: rgba(255, 84, 65, 0.292);
+   /* background-color: rgba(255, 84, 65, 0.292); */
 }
 
 .home:hover {
@@ -346,8 +345,8 @@ nav {
 }
   
 .home a {
-    text-decoration: none; /* Remove underline */
-    color: rgb(102, 125, 208); /* Change text color */
+    
+    color: rgba(25, 51, 168, 0.971); /* Change text color */
     font-weight: bold;
     display: block;
   }

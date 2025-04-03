@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    font-family: "Noto Sans", sans-serif;
+}
+html {
+    overscroll-behavior: none;
+}
+
+
+
+html, body {
+    font-family: "Noto sans", sans-serif;
+    height: 100%;
+    background-color: rgb(255, 236, 236);
+    
+}
+
+
+.landing{
+    min-height: 100vh;
+    background-color: rgb(67, 154, 216);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-content: flex-start;
+    z-index: 2;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+    max-width: 1200px; /* Prevents the nav from expanding too much */
+    z-index: 20;
+    
+    
+}
+
+
+.nav-links {
+    display: flex;  /* place the items side by side*/
+    list-style: none;   /* get rid of bullet point*/
+    gap: 2rem;  /* gap between each nav li element*/
+    padding: 2em;
+    
+}
+
+.nav-links li {
+    /* padding-left: 10rem; */
+    font-size: 1rem;
+    font-weight: lighter;
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 5px;
+    
+
+}
+.nav-links li:hover {
+    border-color: #009688; /* Make border visible on hover */
+    background-color: rgba(137, 2, 2, 0.475); /* Light background effect */
+}
+  
+.nav-links li a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Change text color */
+    font-weight: bold;
+    display: block;
+  }
+
+#logo{
+    position: fixed;
+    top: 0;
+    left: 100px;
+    min-height: 10vh;
+    padding: 20px 5px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: heavier;
+    font-size: 2rem;
+    z-index: 1000;
+    
+
+}
+#logo-img1 {
+    position: fixed; /* Keeps it in place even when scrolling */
+    top: 0; /* Aligns to the very top */
+    left: 50px; /* Aligns to the very left */
+    max-width: 50px; /* Adjust size as needed */
+    height: auto;
+    padding: 10px; /* Adds some spacing */
+}
+#logo-img2 {
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    top: 5%;
+    left: 0%;
+    display: flex;
+    width: 100%;
+    z-index: 40;
+
+   
+}
+.letters {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /*stacks children vertically */
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+
+
+.big-text {
+    position: relative;
+    font-size: 2rem;
+    font-weight: heavier;
+    text-align: center;
+    color: rgb(202, 27, 27);
+    margin: 2em 0em;
+    top: 0rem;
+    z-index: 40;
+   
+}
+
+.website-content {
+   
+    position: relative;
+    padding-top: 10em;
+    width: 100%; 
+    height: 100%;
+    
+}
+
+.img-holder {
+    background-color: rgb(255, 235, 232);
+    margin: 3em 0em;
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 100vh;
+    background: rgb(140, 229, 91);
+    clip-path: polygon(37.5% 20%, 62.5% 20%, 62.5% 50%, 37.5% 50%); 
+    z-index: 10;
+}
+
+.img-holder img {
+    position: relative;
+    top: 0;
+    left: 10px;
+    transform: scale(1.1);
+    height: 100vh;
+  
+    
+}
+
+.content-holder {
+    position: relative;
+    top: 60%;
+    width: 100%;
+    background: rgb(255, 233, 233);
+    color: white;
+    margin-top: 17rem;
+    margin-bottom: 8em;
+    z-index: 6;
+}
+.intro-text {
+    background: rgb(255, 236, 236);
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(94, 29, 29);
+    font-family: "Noto Sans", sans-serif;
+    padding: 10em 10em;
+   
+}
+.sub {
+    padding: 1em 2em;
+    margin: 1em 1em;
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+}
+.intro-text p {
+    margin-top: 1em;
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: left;
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: heavier;
+}
+
+.container {
+    top:60%;
+    background-color: rgb(255, 236, 236);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 100px 50px;
+    padding-top: 10rem;
+    margin: 8em 0em;
+}
+
+.container  .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    background-color: var(--clr);
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    transition: 0.5s;
+    overflow: hidden;
+
+}
+.container  .card:hover {
+    height: 400px;
+}
+.container  .card   .cardimg {
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background: #333;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container  .card:hover .cardimg {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+}
+.container  .card   .cardimg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+}
+
+.container  .card   .card-content {
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    padding: 0 30px;
+    height: 35px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.container  .card:hover .card-content {
+    top: 130px;
+    height: 250px;
+   
+}
+.container  .card   .card-content h2 {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: white;
+    line-height: 2rem;
+}
+
+.container  .card   .card-content p {
+    font-size: 1em;
+    text-align: left;
+    color: #f8e9e9;
+    padding: 5em 0em;
+
+
+}
+.container  .card   .card-content a {
+    position: relative;
+    top: 0px;
+    transform: translateY(-95%);
+    display: inline-block;
+    padding: 12px 25px;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.home {
+    position: relative;
+ 
+    top: 1rem;
+    width: 65%;
+    text-align: center;
+    font-size: 10rem;
+    color: rgb(12, 45, 124);
+    font-size: 5rem;
+    font-weight: lighter;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 100px;
+    
+   background-color: rgba(255, 84, 65, 0.292);
+}
+
+.home:hover {
+    border-color: #009688; /* Make border visible on hover */
+    background-color: rgb(137, 200, 200,0.292); /* Light background effect */
+    width: 65%;
+    transition: 0.5s;
+}
+  
+.home a {
+    text-decoration: none; /* Remove underline */
+    color: rgb(102, 125, 208); /* Change text color */
+    font-weight: bold;
+    display: block;
+  }
+
+/* .hide {
+    background: black;
+    overflow: hidden;
+}
+*/
+/*
+.hide span{         /*move down the hide 
+    transform: translateY(100%);
+    display: inline-block;  /*span is inline element
+} 
+*/
