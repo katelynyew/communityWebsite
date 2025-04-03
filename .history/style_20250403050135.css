@@ -222,7 +222,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     
-    gap: 20px;
+    gap: 10px;
     flex-wrap: wrap;
     margin: 0rem 4rem;
 
@@ -231,7 +231,7 @@ nav {
 
 .row    .tags{
 
-    flex: 1 1 40%; /* Ensures the <p> elements take up at least 20% of the row, but can grow and shrink */
+    flex: 1 1 20%; /* Ensures the <p> elements take up at least 20% of the row, but can grow and shrink */
     
     text-align: center;
     font-size: 3rem;
