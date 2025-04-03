@@ -15,14 +15,14 @@ html {
 html, body {
     font-family: "Noto sans", sans-serif;
     height: 100%;
-    background-color: rgb(218, 195, 191);
+    background-color: rgb(200, 44, 23);
     
 }
 
 
 .landing{
     min-height: 100vh;
-    background-color: rgb(218, 195, 191);
+    background-color: rgb(200, 44, 23);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -116,7 +116,7 @@ nav {
     left: 0%;
     display: flex;
     width: 100%;
-    z-index: 40;
+    z-index: 2;
 
    
 }
@@ -131,28 +131,26 @@ nav {
 
 
 .big-text {
-    position: relative;
+    flex: 1;
     font-size: 2rem;
     font-weight: heavier;
     text-align: center;
-    color: rgb(88, 15, 15);
-    margin: 2em 0em;
-    top: 0rem;
-    z-index: 40;
+    color: rgb(255, 242, 237);
+    margin: 3em 0em;
    
 }
 
 .website-content {
    
     position: relative;
-    padding-top: 10em;
+    padding-top: 3em;
     width: 100%; 
     height: 100%;
     
 }
 
 .img-holder {
-    background-color: rgb(255, 235, 232);
+    background-color: rgb(200, 44, 23);
     margin: 3em 0em;
     position: relative;
     top: 0%;
@@ -166,8 +164,7 @@ nav {
 .img-holder img {
     position: relative;
     top: 0;
-    left: 10px;
-    transform: scale(1.1);
+    transform: scale(2);
     height: 100vh;
   
     
@@ -177,10 +174,10 @@ nav {
     position: relative;
     top: 170vh;
     width: 100%;
-    background: rgb(255, 233, 233);
+    background: rgb(169, 29, 29);
     color: white;
-    margin-top: 17rem;
-    margin-bottom: 8em;
+    
+    margin: 10rem 0rem;
     z-index: 6;
 }
 .intro-text {
@@ -298,7 +295,7 @@ nav {
 }
 
 .container  .card   .card-content p {
-    font-size: 1em;
+    font-size: 2em;
     text-align: left;
     color: #f8e9e9;
     padding: 5em 0em;

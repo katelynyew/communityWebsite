@@ -66,8 +66,8 @@ gsap.to(".big-text", {
         start: "top top",  // Start fading out when the top of the website-content reaches the top of the viewport
         end: "+=100%",  // Keep fading out while scrolling further
         scrub: 1,  // Smooth transition based on scroll
-        onEnter: () => gsap.to(".big-text", { opacity: 0, duration: 1 }),
-        onLeaveBack: () => gsap.to(".big-text", { opacity: 1, duration: 1 }),  // Fade in when scrolling back
+        onEnter: () => gsap.to(".big-text", { opacity: 0, duration: 0.5 }),
+        onLeaveBack: () => gsap.to(".big-text", { opacity: 1, duration: 0.5 }),  // Fade in when scrolling back
    
     }
 });

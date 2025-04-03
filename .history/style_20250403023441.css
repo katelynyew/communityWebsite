@@ -135,8 +135,8 @@ nav {
     font-size: 2rem;
     font-weight: heavier;
     text-align: center;
-    color: rgb(88, 15, 15);
-    margin: 2em 0em;
+    color: rgb(15, 26, 88);
+    margin: 3em 0em;
     top: 0rem;
     z-index: 40;
    
@@ -179,8 +179,9 @@ nav {
     width: 100%;
     background: rgb(255, 233, 233);
     color: white;
-    margin-top: 17rem;
-    margin-bottom: 8em;
+    
+    margin-top: 15rem;
+    margin-bottom: 5em;
     z-index: 6;
 }
 .intro-text {

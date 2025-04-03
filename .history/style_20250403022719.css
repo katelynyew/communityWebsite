@@ -15,14 +15,14 @@ html {
 html, body {
     font-family: "Noto sans", sans-serif;
     height: 100%;
-    background-color: rgb(218, 195, 191);
+    background-color: rgb(132, 131, 130);
     
 }
 
 
 .landing{
     min-height: 100vh;
-    background-color: rgb(218, 195, 191);
+    background-color: rgb(200, 44, 23);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -116,7 +116,7 @@ nav {
     left: 0%;
     display: flex;
     width: 100%;
-    z-index: 40;
+    z-index: 2;
 
    
 }
@@ -135,17 +135,16 @@ nav {
     font-size: 2rem;
     font-weight: heavier;
     text-align: center;
-    color: rgb(88, 15, 15);
-    margin: 2em 0em;
-    top: 0rem;
-    z-index: 40;
+    color: rgb(255, 242, 237);
+    margin: 3em 0em;
+    top: 15rem;
    
 }
 
 .website-content {
    
     position: relative;
-    padding-top: 10em;
+    padding-top: 3em;
     width: 100%; 
     height: 100%;
     
@@ -179,8 +178,8 @@ nav {
     width: 100%;
     background: rgb(255, 233, 233);
     color: white;
-    margin-top: 17rem;
-    margin-bottom: 8em;
+    
+    margin: 8rem 0rem;
     z-index: 6;
 }
 .intro-text {
