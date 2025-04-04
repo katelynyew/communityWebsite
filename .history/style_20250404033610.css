@@ -15,14 +15,14 @@ html {
 html, body {
     font-family: "Noto sans", sans-serif;
     height: 100%;
-    background-color: rgb(226, 61, 39);
+    background-color: rgb(226, 242, 253);
     
 }
 
 
 .landing{
     min-height: 100vh;
-    background-color: rgb(226, 61, 39);
+    background-color: rgb(198, 34, 12);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -135,11 +135,10 @@ nav {
     font-size: 2rem;
     font-weight: heavier;
     text-align: center;
-    color: rgb(255, 232, 232);
+    color: rgb(212, 57, 26);
     margin: 2em 0em;
     top: 0rem;
     z-index: 40;
-    font-style: italic;
    
 }
 
@@ -178,14 +177,14 @@ nav {
     position: relative;
     top: 60%;
     width: 100%;
-    background: rgb(255, 255, 255);
+    background: rgb(226, 242, 253);
     color: white;
     margin-top: 17rem;
     margin-bottom: 8em;
     z-index: 6;
 }
 .intro-text {
-    background: rgb(245, 253, 255);
+    background: rgb(226, 242, 253);
     position: relative;
     top: 0%;
     width: 100%;
@@ -215,51 +214,34 @@ nav {
     font-style: italic;
     font-weight: heavier;
 }
-.white-gap1 {
-    top: 54%;
-    height: 80%; /* or whatever height your gap is */
-    background-color: rgb(245, 253, 255);
-    width: 100%;
-    position: relative;
-    z-index: 5; /* Make sure it's under your floating elements if needed */
-}
-
 .row {
-    background-color: rgb(245, 253, 255);
     position: relative;
     display: flex;
     width: 100%;
-    top: 40%;
+    top: 70%;
     justify-content: space-between;
     align-items: center;
-    z-index: 500;
+    
     gap: 20px;
     flex-wrap: wrap;
     margin: 0rem 4rem;
 
     
 }
-.white-gap2 {
-    top: 45%;
-    height: 80%; /* or whatever height your gap is */
-    background-color: rgb(245, 253, 255);
-    width: 100%;
-    position: relative;
-    z-index: 5; /* Make sure it's under your floating elements if needed */
-}
+
 .row    .tags{
 
     flex: 1 1 35%; /* Ensures the <p> elements take up at least 20% of the row, but can grow and shrink */
     
     text-align: center;
     font-size: 3rem;
-    color: rgb(235, 64, 33);
+    color: rgb(212, 57, 26);
     font-weight: bold;
 
 }
 .container {
-    top:40%;
-    background-color:rgb(245, 253, 255);
+    top:70%;
+    background-color: rgb(226, 242, 253);
     position: relative;
     display: flex;
     justify-content: center;
@@ -268,7 +250,7 @@ nav {
     gap: 100px 50px;
     padding: 100px 50px;
     padding-top: 10rem;
-    
+    margin: 8em 0em;
 }
 
 .container  .card {

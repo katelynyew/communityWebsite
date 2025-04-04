@@ -132,7 +132,7 @@ nav {
 
 .big-text {
     position: relative;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: heavier;
     text-align: center;
     color: rgb(255, 232, 232);
@@ -185,7 +185,7 @@ nav {
     z-index: 6;
 }
 .intro-text {
-    background: rgb(245, 253, 255);
+    background: rgb(222, 248, 255);
     position: relative;
     top: 0%;
     width: 100%;
@@ -218,14 +218,14 @@ nav {
 .white-gap1 {
     top: 54%;
     height: 80%; /* or whatever height your gap is */
-    background-color: rgb(245, 253, 255);
+    background-color: rgb(222, 248, 255);
     width: 100%;
     position: relative;
     z-index: 5; /* Make sure it's under your floating elements if needed */
 }
 
 .row {
-    background-color: rgb(245, 253, 255);
+    background-color: rgb(222, 248, 255);
     position: relative;
     display: flex;
     width: 100%;
@@ -242,7 +242,7 @@ nav {
 .white-gap2 {
     top: 45%;
     height: 80%; /* or whatever height your gap is */
-    background-color: rgb(245, 253, 255);
+    background-color: rgb(222, 248, 255);
     width: 100%;
     position: relative;
     z-index: 5; /* Make sure it's under your floating elements if needed */
@@ -259,7 +259,7 @@ nav {
 }
 .container {
     top:40%;
-    background-color:rgb(245, 253, 255);
+    background-color:rgb(222, 248, 255);
     position: relative;
     display: flex;
     justify-content: center;
