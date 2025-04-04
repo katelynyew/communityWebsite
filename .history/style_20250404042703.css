@@ -217,7 +217,7 @@ nav {
 }
 .white-gap1 {
     top: 54%;
-    height: 50%; /* or whatever height your gap is */
+    height: 60%; /* or whatever height your gap is */
     background-color: rgb(245, 253, 255);
     width: 100%;
     position: relative;
@@ -241,7 +241,7 @@ nav {
 }
 .white-gap2 {
     top: 45%;
-    height: 40%; /* or whatever height your gap is */
+    height: 50%; /* or whatever height your gap is */
     background-color: rgb(245, 253, 255);
     width: 100%;
     position: relative;
